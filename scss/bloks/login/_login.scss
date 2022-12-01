@@ -1,0 +1,59 @@
+.div{
+    width: 100%;
+    height: 100vh;
+    background-color: #17212B;
+    .from{
+        width: 250px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 200px;
+        h1{
+            font-size: 1.2rem;
+            color: #fff;
+            text-align: center;
+        }
+        .inp{
+            margin-left: 7px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            p{
+                color: #637689;
+                font-size: .9rem;
+            }
+            input{
+                background-color: #17212B;
+                border: transparent;
+                width: 240px;
+                height: 30px;
+                padding-left: .5rem;
+                border-bottom: 2.5px solid #637689;
+                font-size: 16px;
+            }
+        }
+        :hover{
+            p{
+                color: #439DF3;
+            }
+            input{
+                border-bottom: 2.5px solid #439DF3;
+            }
+        }
+        .button{
+            display: block;
+            width: 240px;
+            height: 50px;
+            border-radius: .5rem;
+            border: transparent;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            background: #2F6EA5;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+        .a{
+            text-align: center;
+            display: block;
+            color: #439DF3;
+        }
+    }
+}

@@ -1,0 +1,302 @@
+.telegram{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    .aaa{
+        background: #0E1621;
+        height: 100vh;
+        .burger{
+            height: 50px;
+        }
+        button{
+            width: 70px;
+            height: 70px;
+            display: block;
+            color: #768C9E;
+            background: none;
+            border: none;
+            margin: 0 auto;
+            font-size: 2rem;
+            p{
+                font-size: .7rem;
+                color: #768C9E;
+            }
+        }
+        :hover{
+            background: #25303E;
+        }
+    }
+    .users{
+        box-shadow: 0 0 2px #000;
+        overflow-x: hidden;
+        width: 300px;
+        background: #17212B;
+        .search{
+            position: fixed;
+            width: 300px;
+            height: 50px;
+            padding: 9px 10px;
+            background: #17212B;
+            input{
+                padding:0 5px;
+                width: 240px;
+                background: #242F3D;
+                color: #768C9E;
+                border: none;
+                border-radius: .6rem;
+                height: 30px;
+            }
+            a{
+                background: none;
+                border: none;
+                i{
+                    color: #6C7883;
+                    font-size: 1.3rem;
+                    margin-left: 9px;
+                    margin-right: -9px;
+                }
+            }
+            :hover{
+                color: #fff;
+            }
+        }
+        .userr{
+            margin-top: 50px;
+        }
+        .user{
+            width: 250px;
+            border: none;
+            background: none;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            img{
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+            }
+            .info{
+                margin-left: 5px;
+                height: 45px;
+                .name{
+                    margin-top: 4px;
+                    color: #fff;
+                    font-size: .8rem;
+                }
+                .text{
+                    margin-top: -6px;
+                    color: #768C9E;
+                    font-size: .7rem;
+                }
+            }
+        }
+        .user:hover{
+            border-radius: 1rem;
+            background: #232E3C;
+        }
+        .userr:hover{
+            border-radius: 1rem;
+            background: #232E3C;
+        }
+    }
+    .chat{
+        overflow-x: hidden;
+        width: 600px;
+        background: #0E1621;
+        &__header{
+            width: 600px;
+            position: fixed;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            background: #17212B;
+            box-shadow: 0 0 2px #000;
+            .chat_user-name{
+                color: #fff;
+                font-size: 1rem;
+                padding-left: 30px;
+            }
+            P{
+                width: 190px;
+                margin-top: -5px;
+                margin-bottom: -5px;
+                font-size: .8rem;
+                padding-left: 30px;
+                color: #6C7883;
+            }
+            .list{
+                margin-left: 200px;
+                display: flex;
+                align-items: center;
+                &__item{
+                    margin-top: 9px;
+                    margin-left: 20px;
+                    a{
+                        color: #6C7883;
+                        font-size: 1.3rem;
+                    }
+                    :hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        &__users{
+            margin-top: 70px !important;
+            width: 500px;
+            margin: 0 auto;
+            .user1{
+                text-align: center;
+                width: 290px;
+                font-size: 1rem;
+                background: #182533;
+                border-radius: 1.4rem;
+                color: #fff;
+                padding: 6px 10px;
+                p{
+                    text-align: start;
+                    font-size: .7rem;
+                }
+                h1{
+                    margin-top: -10px;
+                    font-size: 1rem;
+                }
+            }
+            .user2{
+                text-align: center;
+                width: 290px;
+                font-size: 1rem;
+                background: #2B5278;
+                border-radius: 1.4rem;
+                color: #fff;
+                padding: 6px 10px;
+                margin-left: auto;
+                p{
+                    text-align: end;
+                    font-size: .7rem;
+                }
+                h1{
+                    margin-top: -10px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .user__info{
+        box-shadow: 0 0 2px #000;
+        width: 340px;
+        background: #232E3C;
+        .inf{
+            width: 340px;
+            position: fixed;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            background: #17212B;
+            h1{
+                padding: 20px;
+                font-size: 1.4rem;
+                color: #fff;
+            }
+            button{
+                border: none;
+                background: none;
+                color: #fff;
+                font-size: 1.2rem;
+                margin-left: 120px;
+            }
+        }
+        .intro{
+            height: 200px;
+            background: #17212B;
+            display: flex;
+            align-items: center;
+            img{
+                margin-top: 30px;
+                margin-left: 20px;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+            .div_user_name{
+                margin-top: 40px;
+                margin-left: 20px;
+                background: #17212B;
+                .user_name{
+                    margin-top: 10px;
+                    color: #fff;
+                    font-size: 1rem;
+                }
+                p{
+                    color: #708499;
+                }
+            }
+        }
+        .boshkqa{
+            height: 300px;
+            margin-top: 10px;
+            background: #17212B;
+            color: #fff;
+            .nomer{
+                display: flex;
+                align-items: center;
+                i{
+                    width: 70px;
+                    text-align: center;
+                }
+                .number{
+                    h1{
+                        margin-top: 20px;
+                        font-size: .9rem;
+                    }
+                    p{
+                        margin-top: -5px;
+                        color: #3E546A;
+                    }
+                }
+            }
+            .abut{
+                margin-top: -15px;
+                margin-left: 70px;
+                h1{
+                    margin-top: 20px;
+                    font-size: .9rem;
+                }
+                p{
+                    margin-top: -5px;
+                    color: #3E546A;
+                }
+            }
+            .user__name{
+                margin-left: 70px;
+                a{
+                    margin-top: 20px;
+                    font-size: .9rem;
+                }
+                p{
+                    color: #3E546A;
+                }
+            }
+            .bell{
+                display: flex;
+                align-items: center;
+                // justify-content: space-between;
+                h1{
+                    margin-top: 20px;
+                    font-size: 1.3rem;
+                }
+                i{
+                    width: 70px;
+                    text-align: center;
+                    font-size: 1.3rem;
+                }
+                .j{
+                    margin-left: 50px;
+                }
+            }
+            .bell:hover{
+                background: #232E3C;
+            }
+        }
+    }
+}
