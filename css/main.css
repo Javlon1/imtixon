@@ -41,6 +41,10 @@ li {
   list-style-type: none;
 }
 
+input {
+  outline: none;
+}
+
 :root {
   --web-scrol-bc: #232E3C;
   --web-scrol-c: #768C9E;
@@ -184,7 +188,9 @@ li {
   margin-top: 9px;
   margin-left: 20px;
 }
-.telegram .chat__header .list__item a {
+.telegram .chat__header .list__item button {
+  border: none;
+  background: none;
   color: #6C7883;
   font-size: 1.3rem;
 }
@@ -234,7 +240,7 @@ li {
 .telegram .user__info {
   box-shadow: 0 0 2px #000;
   width: 340px;
-  background: #232E3C;
+  background: #17212B;
 }
 .telegram .user__info .inf {
   width: 340px;
@@ -261,6 +267,7 @@ li {
   background: #17212B;
   display: flex;
   align-items: center;
+  border-bottom: 10px solid #232E3C;
 }
 .telegram .user__info .intro img {
   margin-top: 30px;
@@ -284,7 +291,6 @@ li {
 }
 .telegram .user__info .boshkqa {
   height: 300px;
-  margin-top: 10px;
   background: #17212B;
   color: #fff;
 }
@@ -344,6 +350,10 @@ li {
 }
 .telegram .user__info .boshkqa .bell:hover {
   background: #232E3C;
+}
+
+.nonee {
+  display: none;
 }
 
 .div {

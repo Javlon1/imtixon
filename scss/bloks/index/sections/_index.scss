@@ -131,7 +131,9 @@
                 &__item{
                     margin-top: 9px;
                     margin-left: 20px;
-                    a{
+                    button{
+                        border: none;
+                        background: none;
                         color: #6C7883;
                         font-size: 1.3rem;
                     }
@@ -185,7 +187,7 @@
     .user__info{
         box-shadow: 0 0 2px #000;
         width: 340px;
-        background: #232E3C;
+        background: #17212B;
         .inf{
             width: 340px;
             position: fixed;
@@ -211,6 +213,7 @@
             background: #17212B;
             display: flex;
             align-items: center;
+            border-bottom: 10px solid #232E3C;
             img{
                 margin-top: 30px;
                 margin-left: 20px;
@@ -234,7 +237,6 @@
         }
         .boshkqa{
             height: 300px;
-            margin-top: 10px;
             background: #17212B;
             color: #fff;
             .nomer{
@@ -299,4 +301,7 @@
             }
         }
     }
+}
+.nonee{
+    display: none;
 }
